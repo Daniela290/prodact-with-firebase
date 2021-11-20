@@ -1,10 +1,15 @@
 <template>
-$END$
+<div>
+  <Header/>
+  <div class="tmp"></div>
+</div>
 </template>
 
 <script>
+import Header from "../components/header/Header";
 export default {
-name: "Home"
+name: "Home",
+  components: {Header}
 }
 </script>
 
